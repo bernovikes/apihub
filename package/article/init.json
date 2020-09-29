@@ -1,0 +1,24 @@
+{
+  "name": "article",
+  "install": false,
+  "description": "微信登录",
+  "version": "1.0.0",
+  "route": [
+    {
+      "method": "get",
+      "path": "/article/list"
+    },
+    {
+      "method": "get",
+      "path": "/article/:id"
+    },
+    {
+      "method": "post",
+      "path": "/article"
+    },
+    {
+      "method": "delete",
+      "path": "/article/:id"
+    }
+  ]
+}

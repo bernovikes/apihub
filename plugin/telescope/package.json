@@ -1,0 +1,16 @@
+{
+  "name": "telescope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eggPlugin": {
+    "name": "telescope",
+    "dependencies":["sequelize"],
+    "env": [ "local", "test", "unittest", "prod" ]
+  },
+  "author": "",
+  "license": "ISC"
+}
